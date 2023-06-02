@@ -1,0 +1,37 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date              : Thu Jun  1 11:07:15 2023
+| Host              : HP-EliteDesk-800-G2-TWR running 64-bit Ubuntu 22.04.2 LTS
+| Command           : report_clock_interaction -file reports/ariane.clock_interaction.rpt
+| Design            : ariane_xilinx
+| Device            : xcku5p-ffvb676
+| Speed File        : -2  PRODUCTION 1.29 05-01-2022
+| Temperature Grade : E
+------------------------------------------------------------------------------------------
+
+Clock Interaction Report
+
+Clock Interaction Table
+-----------------------
+
+                                                          WNS                            TNS Failing  TNS Total    WNS Path         Clock-Pair           Inter-Clock                  
+From Clock                   To Clock                     Clock Edges  WNS(ns)  TNS(ns)    Endpoints    Endpoints  Requirement(ns)  Classification       Constraints                  
+---------------------------  ---------------------------  -----------  -------  -------  -----------  -----------  ---------------  -------------------  ---------------------------  
+c0_sys_clk_p                 c0_sys_clk_p                 rise - rise     2.36     0.00            0           23             3.33  Clean                Timed                        
+c0_sys_clk_p                 mmcm_clkout0                                                          0            1                   Ignored              False Path                   
+c0_sys_clk_p                 mmcm_clkout6                                                          0            2                   Ignored              False Path                   
+clk_out1_xlnx_clk_gen        clk_out1_xlnx_clk_gen        rise - rise    10.45     0.00            0       113448            20.00  Clean                Partial False Path           
+clk_out1_xlnx_clk_gen        mmcm_clkout0                 rise - rise     7.72     0.00            0         1313       Unexpanded  No Common Clock      Partial False Path (unsafe)  
+clk_out1_xlnx_clk_gen        tck                          rise - rise    19.73     0.00            0           36            20.00  Ignored              Max Delay Datapath Only      
+mmcm_clkout0                 clk_out1_xlnx_clk_gen        rise - rise    -0.74  -641.20          867          971       Unexpanded  No Common Clock      Partial False Path (unsafe)  
+mmcm_clkout0                 mmcm_clkout0                 rise - rise    -0.35    -4.13           20        29757             3.00  Clean                Timed                        
+mmcm_clkout0                 mmcm_clkout6                 rise - rise     2.26     0.00            0           36             3.00  Clean                Timed                        
+mmcm_clkout0                 pll_clk[0]_DIV               rise - rise     1.67     0.00            0          384             3.00  Clean                Timed                        
+mmcm_clkout0                 pll_clk[1]_DIV               rise - rise     1.67     0.00            0          176             3.00  Clean                Timed                        
+mmcm_clkout6                 mmcm_clkout0                 rise - rise     2.68     0.00            0          109             3.00  Ignored              Max Delay Datapath Only      
+mmcm_clkout6                 mmcm_clkout6                 rise - rise     3.43     0.00            0         5309             6.00  Clean                Partial False Path           
+tck                          clk_out1_xlnx_clk_gen        rise - rise    18.85     0.00            0           43            20.00  No Common Clock      Timed (unsafe)               
+tck                          tck                          fall - rise    35.46     0.00            0          456            50.00  Clean                Timed                        
+
+
