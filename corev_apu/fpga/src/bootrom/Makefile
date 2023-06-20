@@ -38,7 +38,7 @@ $(MAIN): $(DTB) $(OBJS_C) $(OBJS_S) linker.lds
 	$(CROSSCOMPILE)objcopy -O binary $< $@
 
 %.o: %.c
-	@$(CC) $(CFLAGS) $(INCLUDES) -c $<  -o $@
+	@$(CC) $(CFLAGS) $(INCLUDES) -c  $<  -o $@
 	@echo "CC    <= $<"
 
 %.o: %.S

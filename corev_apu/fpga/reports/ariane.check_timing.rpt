@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------
 | Tool Version      : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-| Date              : Thu Jun  1 11:36:10 2023
+| Date              : Tue Jun 20 12:59:24 2023
 | Host              : HP-EliteDesk-800-G2-TWR running 64-bit Ubuntu 22.04.2 LTS
 | Command           : check_timing -file reports/ariane.check_timing.rpt
 | Design            : ariane_xilinx
@@ -15,10 +15,10 @@ check_timing report
 
 Table of Contents
 -----------------
-1. checking no_clock (0)
+1. checking no_clock (2848)
 2. checking constant_clock (0)
 3. checking pulse_width_clock (0)
-4. checking unconstrained_internal_endpoints (0)
+4. checking unconstrained_internal_endpoints (56)
 5. checking no_input_delay (9)
 6. checking no_output_delay (13)
 7. checking multiple_clock (0)
@@ -28,9 +28,185 @@ Table of Contents
 11. checking partial_output_delay (0)
 12. checking latch_loops (0)
 
-1. checking no_clock (0)
-------------------------
- There are 0 register/latch pins with no clock.
+1. checking no_clock (2848)
+---------------------------
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[0][req][instr][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[0][req][instr][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[0][req][instr][2]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[0][req][instr][3]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[0][req][instr][4]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[0][req][instr][5]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[0][req][instr][6]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[0][req][rs][1][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[0][req][rs][1][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[1][req][instr][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[1][req][instr][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[1][req][instr][2]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[1][req][instr][3]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[1][req][instr][4]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[1][req][instr][5]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[1][req][instr][6]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[1][req][rs][1][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[1][req][rs][1][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[2][req][instr][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[2][req][instr][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[2][req][instr][2]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[2][req][instr][3]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[2][req][instr][4]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[2][req][instr][5]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[2][req][instr][6]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[2][req][rs][1][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[2][req][rs][1][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[3][req][instr][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[3][req][instr][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[3][req][instr][2]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[3][req][instr][3]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[3][req][instr][4]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[3][req][instr][5]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[3][req][instr][6]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[3][req][rs][1][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[3][req][rs][1][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[4][req][instr][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[4][req][instr][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[4][req][instr][2]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[4][req][instr][3]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[4][req][instr][4]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[4][req][instr][5]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[4][req][instr][6]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[4][req][rs][1][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[4][req][rs][1][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[5][req][instr][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[5][req][instr][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[5][req][instr][2]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[5][req][instr][3]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[5][req][instr][4]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[5][req][instr][5]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[5][req][instr][6]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[5][req][rs][1][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[5][req][rs][1][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[6][req][instr][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[6][req][instr][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[6][req][instr][2]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[6][req][instr][3]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[6][req][instr][4]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[6][req][instr][5]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[6][req][instr][6]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[6][req][rs][1][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[6][req][rs][1][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[7][req][instr][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[7][req][instr][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[7][req][instr][2]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[7][req][instr][3]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[7][req][instr][4]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[7][req][instr][5]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[7][req][instr][6]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[7][req][rs][1][0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/gen_asic_queue.mem_q_reg[7][req][rs][1][1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/read_pointer_q_reg[0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/read_pointer_q_reg[1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/read_pointer_q_reg[2]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/status_cnt_q_reg[0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/status_cnt_q_reg[1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/status_cnt_q_reg[2]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/gen_example_coprocessor.i_cvxif_coprocessor/fifo_commit_i/status_cnt_q_reg[3]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/i_cva6/issue_stage_i/i_issue_read_operands/cvxif_off_instr_q_reg[0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/i_cva6/issue_stage_i/i_issue_read_operands/cvxif_off_instr_q_reg[1]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/i_cva6/issue_stage_i/i_issue_read_operands/cvxif_off_instr_q_reg[2]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/i_cva6/issue_stage_i/i_issue_read_operands/cvxif_off_instr_q_reg[3]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/i_cva6/issue_stage_i/i_issue_read_operands/cvxif_off_instr_q_reg[4]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/i_cva6/issue_stage_i/i_issue_read_operands/cvxif_off_instr_q_reg[5]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/i_cva6/issue_stage_i/i_issue_read_operands/cvxif_off_instr_q_reg[6]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/i_cva6/issue_stage_i/i_issue_read_operands/cvxif_valid_q_reg/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/i_cva6/issue_stage_i/i_issue_read_operands/operand_b_q_reg[0]/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: i_ariane/i_cva6/issue_stage_i/i_issue_read_operands/operand_b_q_reg[1]/Q (HIGH)
 
 
 2. checking constant_clock (0)
@@ -43,9 +219,9 @@ Table of Contents
  There are 0 register/latch pins which need pulse_width check
 
 
-4. checking unconstrained_internal_endpoints (0)
-------------------------------------------------
- There are 0 pins that are not constrained for maximum delay.
+4. checking unconstrained_internal_endpoints (56)
+-------------------------------------------------
+ There are 56 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 

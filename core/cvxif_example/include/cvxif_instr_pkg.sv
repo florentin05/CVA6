@@ -16,8 +16,20 @@ package cvxif_instr_pkg;
   } copro_issue_resp_t;
 
   // 2 Possible RISCV instructions for Coprocessor
-  parameter int unsigned NbInstr = 2;
+  parameter int unsigned NbInstr = 4;
   parameter copro_issue_resp_t CoproInstr[NbInstr] = '{
+     '{
+      instr: 32'b 00000_00_00000_00000_0_00_00000_0001011, // custom0 opcode
+      mask:  32'b 00000_00_00000_00000_0_00_00000_1111111,
+      resp : '{
+        accept : 1'b1,
+        writeback : 1'b1,
+        dualwrite : 1'b0,
+        dualread : 1'b0,
+        loadstore : 1'b0,
+        exc : 1'b0
+      }
+    },
     '{
       instr: 32'b 00000_00_00000_00000_0_00_00000_0101011, // custom1 opcode
       mask:  32'b 00000_00_00000_00000_0_00_00000_1111111,
@@ -32,6 +44,18 @@ package cvxif_instr_pkg;
     },
     '{
       instr: 32'b 00000_00_00000_00000_0_00_00000_1011011, // custom2 opcode
+      mask:  32'b 00000_00_00000_00000_0_00_00000_1111111,
+      resp : '{
+        accept : 1'b1,
+        writeback : 1'b1,
+        dualwrite : 1'b0,
+        dualread : 1'b0,
+        loadstore : 1'b0,
+        exc : 1'b0
+      }
+    },
+    '{
+      instr: 32'b 00000_00_00000_00000_0_00_00000_1111011, // custom3 opcode
       mask:  32'b 00000_00_00000_00000_0_00_00000_1111111,
       resp : '{
         accept : 1'b1,
