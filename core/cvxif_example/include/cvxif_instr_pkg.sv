@@ -15,7 +15,7 @@ package cvxif_instr_pkg;
       cvxif_pkg::x_issue_resp_t  resp;
   } copro_issue_resp_t;
 
-  // 2 Possible RISCV instructions for Coprocessor
+  // 4 Possible RISCV instructions for Coprocessor
   parameter int unsigned NbInstr = 4;
   parameter copro_issue_resp_t CoproInstr[NbInstr] = '{
      '{
@@ -35,7 +35,7 @@ package cvxif_instr_pkg;
       mask:  32'b 00000_00_00000_00000_0_00_00000_1111111,
       resp : '{
         accept : 1'b1,
-        writeback : 1'b0,
+        writeback : 1'b1, //initially was 1'b0
         dualwrite : 1'b0,
         dualread : 1'b0,
         loadstore : 1'b0,

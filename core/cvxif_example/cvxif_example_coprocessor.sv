@@ -241,7 +241,7 @@ module cvxif_example_coprocessor import cvxif_pkg::*;
         sum32_1 = sum16_2+sum16_3;
             
         x_result_o.data=sum32_0+sum32_1;
-    end else if (req_o.req.instr[6:0] == 7'b1111011) begin
+    end else if (req_o.req.instr[6:0] == 7'b0101011) begin
     	casex (req_o.req.rs[0][63:32])
                 32'b1xxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx : pos1 = 8'h3F;
                 32'bx1xxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx : pos1 = 8'h3E;
