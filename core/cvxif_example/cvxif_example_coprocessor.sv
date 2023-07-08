@@ -6,8 +6,8 @@
 // You may obtain a copy of the License at https://solderpad.org/licenses/
 //
 // Original Author: Guillaume Chauvon (guillaume.chauvon@thalesgroup.com)
-// Example coprocessor adds rs1,rs2(,rs3) together and gives back the result to the CPU via the CoreV-X-Interface.
-// Coprocessor delays the sending of the result depending on result least significant bits.
+// Modified by Ilie Florentin
+//Coprocessor implements 3 algorithms in order to highlight the increased system performance due to the integration of the hardware accelerator
 
 module cvxif_example_coprocessor import cvxif_pkg::*;
                                  import cvxif_instr_pkg::*;(
