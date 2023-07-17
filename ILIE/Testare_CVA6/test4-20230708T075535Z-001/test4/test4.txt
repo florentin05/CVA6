@@ -1,0 +1,29 @@
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[0m(B[7m[71;1H[K[?12l[?25h[?25l                                                                                                                                          [?12l[?25h[?12l[?25h[?25lCTRL-A Z for help | 115200 8N1 | NOR | Minicom 2.8 | VT102 | Offline | ttyUSB1                                                            [?12l[?25h[1;1H
+[0m(BWelcome to minicom 2.8
+
+OPTIONS: I18n 
+Port /dev/ttyUSB1, 11:02:11
+
+Press CTRL-A Z for help on special keys
+
+
+Nr. cicli pt 100 scrieri in RAM:0000000000000708
+Nr. cicli pt 100 citiri din RAM:000000000000076C
+Nr. cicli pt 10000 scrieri in RAM:000000000002BF20
+Nr. cicli pt 10000 citiri din RAM:000000000002E73C
+Nr. cicli pt 100000 scrieri in RAM:00000000001B7740
+Nr. cicli pt 100000 citiri din RAM:00000000001CFDE0Hello World!
+
+Nr. cicli pt 100 scrieri in RAM:0000000000000708
+Nr. cicli pt 100 citiri din RAM:0000000000000D6F
+Nr. cicli pt 10000 scrieri in RAM:000000000002BF20
+Nr. cicli pt 10000 citiri din RAM:000000000002E73C
+Nr. cicli pt 100000 scrieri in RAM:00000000001B7740
+Nr. cicli pt 100000 citiri din RAM:00000000001CFDE0Hello World!
+
+Nr. cicli pt 100 scrieri in RAM:0000000000000708
+Nr. cicli pt 100 citiri din RAM:0000000000000D6F
+Nr. cicli pt 10000 scrieri in RAM:000000000002BF20
+Nr. cicli pt 10000 citiri din RAM:000000000002E73C
+Nr. cicli pt 100000 scrieri in RAM:00000000001B7740
+Nr. cicli pt 100000 citiri din RAM:00000000001CFDE0[8;57H[?25l+-------------------------+[9;57H|                         |[10;57H|  Killed by signal 1 !   |[11;57H|                         |[12;57H+-------------------------+[11;58H[?25l[?12l[?25h[8;1H                                                                                   [9;1H                                                                                   [10;1HNr. cicli pt 100 scrieri in RAM:0000000000000708                                   [11;1HNr. cicli pt 100 citiri din RAM:000000000000076C                                   [12;1HNr. cicli pt 10000 scrieri in RAM:000000000002BF20                                 [29;52H[8;62H[?25l+---------------+[9;62H|               |[10;62H|  Hanging up   |[11;62H|               |[12;62H+---------------+[10;75H[?25l[?12l[?25h[8;1H                                                                              [9;1H                                                                              [10;1HNr. cicli pt 100 scrieri in RAM:0000000000000708                              [11;1HNr. cicli pt 100 citiri din RAM:000000000000076C                              [12;1HNr. cicli pt 10000 scrieri in RAM:000000000002BF20                            [29;52H[H[2J[?12l[?25h[?1l>[!p[?3;4l[4l>

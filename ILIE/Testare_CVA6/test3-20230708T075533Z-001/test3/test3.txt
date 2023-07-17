@@ -1,0 +1,62 @@
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[0m(B[7m[71;1H[K[?12l[?25h[?25l                                                                                                                                          [?12l[?25h[?12l[?25h[?25lCTRL-A Z for help | 115200 8N1 | NOR | Minicom 2.8 | VT102 | Offline | ttyUSB1                                                            [?12l[?25h[1;1H
+[0m(BWelcome to minicom 2.8
+
+OPTIONS: I18n 
+Port /dev/ttyUSB1, 11:02:11
+
+Press CTRL-A Z for help on special keys
+
+
+INSTRUCTIUNE: count_ones 
+Raspuns cod C: 30
+Nr. cicli cod C: 000000000000130D
+Raspuns instructiune: 30
+Nr. cicli instructiune: 0000000000000012
+Raport cicli: 000000000000010E
+INSTRUCTIUNE: max8b 
+Raspuns cod C: FF
+Raspuns instructiune: FF
+Nr. cicli cod C: 000000000000032C
+Nr. cicli instructiune: 000000000000001A
+Raport cicli: 000000000000001F
+
+ Cod C OK 
+INSTRUCTIUNE: prima aparitie 
+Raspuns cod C: FF
+Raspuns instructiune: 00
+Nr. cicli cod C: 0000000000000032
+Nr. cicli instructiune: 0000000000000012
+Raport cicli: 0000000000000002
+INSTRUCTIUNE: count_ones 
+Raspuns cod C: 30
+Nr. cicli cod C: 000000000000130D
+Raspuns instructiune: 30
+Nr. cicli instructiune: 0000000000000012
+Raport cicli: 000000000000010E
+INSTRUCTIUNE: max8b 
+Raspuns cod C: FF
+Raspuns instructiune: FF
+Nr. cicli cod C: 000000000000032C
+Nr. cicli instructiune: 000000000000001A
+Raport cicli: 000000000000001F
+
+ Cod C OK 
+INSTRUCTIUNE: prima aparitie 
+Raspuns cod C: FF
+Raspuns instructiune: 00
+Nr. cicli cod C: 0000000000000032
+Nr. cicli instructiune: 0000000000000012
+Raport cicli: 0000000000000002Hello World!
+
+Nr. cicli pt 100 scrieri in RAM:0000000000000708
+Nr. cicli pt 100 citiri din RAM:0000000000000D6F
+Nr. cicli pt 10000 scrieri in RAM:000000000002BF20
+Nr. cicli pt 10000 citiri din RAM:000000000002E73C
+Nr. cicli pt 100000 scrieri in RAM:00000000001B7740
+Nr. cicli pt 100000 citiri din RAM:00000000001CFDE0
+Nr. cicli pt 100 scrieri in RAM:0000000000000708
+Nr. cicli pt 100 citiri din RAM:000000000000076C
+Nr. cicli pt 10000 scrieri in RAM:000000000002BF20
+Nr. cicli pt 10000 citiri din RAM:000000000002E73C
+Nr. cicli pt 100000 scrieri in RAM:00000000001B7740
+Nr. cicli pt 100000 citiri din RAM:00000000001CFDE0[8;57H[?25l+-------------------------+[9;57H|                         |[10;57H|  Killed by signal 1 !   |[11;57H|                         |[12;57H+-------------------------+[11;58H[?25l[?12l[?25h[8;1H                                                                                   [9;1H                                                                                   [10;1HINSTRUCTIUNE: count_ones                                                           [11;1HRaspuns cod C: 30                                                                  [12;1HNr. cicli cod C: 000000000000130D                                                  [62;52H[8;62H[?25l+---------------+[9;62H|               |[10;62H|  Hanging up   |[11;62H|               |[12;62H+---------------+[10;75H[?25l[?12l[?25h[8;1H                                                                              [9;1H                                                                              [10;1HINSTRUCTIUNE: count_ones                                                      [11;1HRaspuns cod C: 30                                                             [12;1HNr. cicli cod C: 000000000000130D                                             [62;52H[H[2J[?12l[?25h[?1l>[!p[?3;4l[4l>
